@@ -1,5 +1,6 @@
 import Head from 'next/head'
-
+// import TestComponent from node modules util-component
+import { Test } from 'util-component';
 // components
 import HeaderApp from '@/components/HeaderApp'
 import MainChart from '@/components/MainChart'
@@ -14,6 +15,7 @@ export default function Home() {
       <main className='p-5 py-10 flex flex-col items-center h-full justify-center'>
         <HeaderApp />
         <MainChart />
+        <Test />
       </main>
     </div>
   )
